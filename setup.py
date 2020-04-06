@@ -5,7 +5,6 @@ version='0.1',
 packages=['dev_aberto'],
 author='Bruna',
 python_requires='>=3',
-install_requires=[
-'requests>=2.21.0'
-]
+install_requires=['requests>=2.21.0'],
+scripts=['scripts/hello.py']
 )
